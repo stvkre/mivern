@@ -129,7 +129,7 @@
                 </address>
                 <address>
                     <h5>E-MAIL</h5>
-                    <p><a href="mailto:info@mivernsolutions.com">info@mivernsolutions.com</a></p>
+                    <p><a href="mailto:info@mivernsolutions.com" >info@mivernsolutions.com</a></p>
                 </address>
                 <address>
                     <h5>SOCIAL MEDIA</h5>
@@ -141,30 +141,36 @@
                 </address>
             </div>
             <div class="col-md-8 col-sm-12 col-xs-12">
-                <form id="contactForm">
-                    <h5>CONTACT FORM</h5>
-                    <div class="row inner">
-                        <div class="col-sm-6 col-xs-12">
-                            <input type="text" name="first_name" placeholder="Your name" required>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <input type="text" name="last_name" placeholder="Your surname" required>
-                        </div>
-                        <div class="col-xs-12">
-                            <input type="email" name="email" placeholder="Your email" required>
-                        </div>
-                        <div class="col-xs-12">
-                            <input type="text" name="subject" placeholder="About subject" required>
-                        </div>
-                        <div class="col-xs-12">
-                            <textarea name="message" placeholder="Your message" required></textarea>
-                        </div>
-                        <div class="col-xs-12">
-                            <button type="submit">SEND</button>
-                        </div>
+              <form id="contactForm">
+                  <h5>CONTACT FORM</h5>
+                  <div class="row inner">
+                      <div class="col-sm-6 col-xs-12">
+                          <label for="first_name">First Name</label>
+                          <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Your name" required>
+                      </div>
+                      <div class="col-sm-6 col-xs-12">
+                          <label for="last_name">Last Name</label>
+                          <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Your surname" required>
+                      </div>
+                      <div class="col-xs-12">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
                     </div>
-                </form>
-            </div>
+                      <div class="col-xs-12">
+                          <label for="subject">Subject</label>
+                          <input type="text" class="form-control" id="subject" name="subject" placeholder="About subject" required>
+                      </div>
+                      <div class="col-xs-12">
+                          <label for="message">Message</label>
+                          <textarea id="message" class="form-control" name="message" placeholder="Your message" required></textarea>
+                      </div>
+                      <div class="col-xs-12">
+                          <button type="submit" class="btn btn-outline-success">SEND</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          
         </div>
     </div>
 </section>
